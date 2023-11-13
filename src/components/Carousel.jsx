@@ -2,6 +2,14 @@ import React from 'react'
 import Carousel1 from "../images/Carousel1.jpg"
 import Carousel2 from "../images/Carousel2.jpg"
 import Carousel3 from "../images/Carousel3.jpg"
+import Carousel4 from "../images/Carousel4.jpg"
+import Carousel5 from "../images/Carousel5.jpg"
+import Carousel6 from "../images/Carousel6.jpg"
+import Carousel7 from "../images/Carousel7.jpg"
+import Carousel8 from "../images/Carousel8.jpg"
+import Carousel9 from "../images/Carousel9.jpg"
+import Carousel10 from "../images/Carousel10.jpg"
+import Carousel11 from "../images/Carousel11.jpg"
 
 const Carousel = () => {
   return (
@@ -17,6 +25,31 @@ const Carousel = () => {
     <div className="carousel-item">
       <img src={Carousel3} className="d-block w-100" alt="..." />
     </div>
+    <div className="carousel-item">
+      <img src={Carousel4} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel5} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel6} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel7} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel8} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel9} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel10} className="d-block w-100" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={Carousel11} className="d-block w-100" alt="..." />
+    </div>
+    
   </div>
   <button
     className="carousel-control-prev"
