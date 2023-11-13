@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Bottomnav from './components/Bottomnav';
 import Carousel from './components/Carousel';
+import Cards from './components/Cards';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Bottomnav />
       <Carousel />
+      <Cards />
     </div>
   );
 }
