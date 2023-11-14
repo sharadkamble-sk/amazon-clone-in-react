@@ -15,7 +15,7 @@ import Cards from '../components/Cards'
 const Carousel = () => {
   return (
     <div>
-      <div id="carouselExample" className="carousel slide">
+      <div id="carouselExample" className="carousel slide"  data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={Carousel1} className="d-block w-100" alt="..." />

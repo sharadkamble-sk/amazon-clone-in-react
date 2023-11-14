@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Bottomnav from './components/Bottomnav';
 import Carousel from './components/Carousel';
 import Cards from './components/Cards';
+import Productcards from './components/Productcards';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Bottomnav />
       <Carousel />
       <Cards />
+      <Productcards />
     </div>
   );
 }
